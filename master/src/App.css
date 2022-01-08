@@ -1,0 +1,78 @@
+:root {
+  /* COLORS VARIABLE */
+  --black: #000000;
+  --white: #ffffff;
+  /* FONT SIZES */
+  --font-xl: 20px;
+  --font-lg: 30px;
+}
+
+body {
+  background-color: var(--black) !important;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: hockey;
+  src: url(./components/assets/font-family/Font_hockey-is-lif/hockey.ttf);
+}
+
+.header-section {
+  background-color: var(--black);
+}
+
+.logo-img {
+  height: 70px;
+  width: 70px;
+}
+
+.footer-text {
+  font-family: hockey;
+  color: var(--white);
+  font-weight: 500;
+  font-size: var(--font-xl);
+}
+
+.main-section {
+  overflow-x: hidden;
+}
+
+.footer-img {
+  height: 200px;
+}
+.h-100vh {
+  height: 100vh;
+}
+.footer-heading {
+  font-family: hockey;
+  color: var(--white);
+  font-weight: 600;
+  font-size: var(--font-lg);
+}
+
+.social-icon {
+  transition: 0.5s;
+}
+
+.social-icon:hover {
+  transform: scale(1.3);
+}
+.footer-section {
+  background-color: var(--black);
+}
+
+@media (max-width: 575.98px) {
+  .logo-img {
+    height: 60px;
+    width: 60px;
+  }
+}
+.loading-heading {
+  font-family: hockey;
+  color: var(--white);
+  font-weight: 600;
+  font-size: var(--font-lg);
+}
+.object-fit {
+  object-fit: cover;
+}
